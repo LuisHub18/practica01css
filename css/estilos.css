@@ -3,7 +3,6 @@ body{
     max-width: 1024px;
     margin: 0px auto;
     padding: 0;
-    border: 1px solid red;
 }   
 
 header {
@@ -14,11 +13,38 @@ header {
     margin-top: -150px;
 }
 
-nav li ul{
-    display: flexbox;
+header nav {
+    border-radius: 5px;
+    margin: 0px auto;
+    padding: 2px 0px;
+    background-color:#036FC4;
+}
+
+header nav form{
+    margin-right: 30px;
+    margin-top: -45px;
+    float: right;
+}
+
+header nav form input {
+    border-radius: 5px;
+}
+
+header nav form input[type='submit']{
+    background-color: #5BB144;
+    border: 1px solid #5BB144;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+header nav form input[type='text']{
+    padding: 10px 10px 10px 20px ;
+}
+header nav ul li{
+    display: inline-block;
+    color: azure;
+    margin-right: 50px;
 }
 
 
-nav li{
-    list-style: none;
-}
