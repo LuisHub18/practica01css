@@ -47,4 +47,43 @@ header nav ul li{
     margin-right: 50px;
 }
 
+#seccion01{
+    margin-top: 15px;
+}
 
+#seccion01 article{
+    text-align: center;
+}
+
+#seccion01 article img{
+    width: 98%;
+    border: 5px solid rgba(150,150,150,0.5);
+}
+
+#seccion02 article{
+    width: 32.8%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+#seccion02 article input{
+    background-color: white;
+    border: 1px solid gray;
+    margin: auto 110px;
+    border-radius: 3px;
+    color: #036FC4;
+    padding: 10px;
+}
+
+.unaSeccion{
+    font-size: 4.5em;
+}
+
+.otraSeccion{
+    font-size: 2.5em;
+}
+
+.nito{
+    font-weight: bold;
+}
